@@ -37,7 +37,7 @@ public class PostController {
 		return postService.findPostById(id);
 	}
 
-	@DeleteMapping("/post/{id}")
+	@DeleteMapping("/post/{ida}")
 	public PostDto removePost(@PathVariable String id) {
 		return postService.removePost(id);
 	}
